@@ -108,28 +108,32 @@ def create_ipc_workflow():
         "action": "Request Approval",
         "next_state": "Pending Approval",
         "allowed": "IPC Manager",
-        "allow_self_approval": 1
+        "allow_self_approval": 1,
+        "allow_edit": "IPC Manager"
     })
     workflow.append("transitions", {
         "state": "Pending Approval",
         "action": "Approve",
         "next_state": "Approved",
         "allowed": "IPC Approver",
-        "allow_self_approval": 0
+        "allow_self_approval": 0,
+        "allow_edit": "IPC Approver"
     })
     workflow.append("transitions", {
         "state": "Pending Approval",
         "action": "Reject",
         "next_state": "Rejected",
         "allowed": "IPC Approver",
-        "allow_self_approval": 0
+        "allow_self_approval": 0,
+        "allow_edit": "IPC Approver"
     })
     workflow.append("transitions", {
         "state": "Rejected",
         "action": "Request Approval",
         "next_state": "Pending Approval",
         "allowed": "IPC Manager",
-        "allow_self_approval": 1
+        "allow_self_approval": 1,
+        "allow_edit": "IPC Manager"
     })
     
     workflow.insert(ignore_permissions=True)
