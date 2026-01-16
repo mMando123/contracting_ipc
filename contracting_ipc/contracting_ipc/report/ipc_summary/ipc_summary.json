@@ -1,0 +1,28 @@
+{
+    "add_total_row": 1,
+    "columns": [],
+    "disabled": 0,
+    "docstatus": 0,
+    "doctype": "Report",
+    "filters": [],
+    "is_standard": "Yes",
+    "module": "Contracting IPC",
+    "name": "IPC Summary",
+    "ref_doctype": "IPC",
+    "report_name": "IPC Summary",
+    "report_type": "Script Report",
+    "roles": [
+        {
+            "role": "System Manager"
+        },
+        {
+            "role": "IPC Manager"
+        },
+        {
+            "role": "IPC Approver"
+        },
+        {
+            "role": "Accounts User"
+        }
+    ]
+}

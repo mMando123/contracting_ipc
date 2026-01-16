@@ -1,0 +1,126 @@
+{
+    "charts": [],
+    "content": "[{\"id\":\"ipc_shortcuts\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IPC\",\"col\":4}},{\"id\":\"ipc_report\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"IPC Summary\",\"col\":4}},{\"id\":\"customer_shortcut\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Customer\",\"col\":4}}]",
+    "doctype": "Workspace",
+    "for_user": "",
+    "hide_custom": 0,
+    "icon": "building",
+    "idx": 0,
+    "is_hidden": 0,
+    "label": "Contracting IPC",
+    "links": [
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "IPC Management",
+            "link_count": 0,
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "dependencies": "",
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "IPC",
+            "link_count": 0,
+            "link_to": "IPC",
+            "link_type": "DocType",
+            "onboard": 1,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Reports",
+            "link_count": 0,
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "dependencies": "",
+            "hidden": 0,
+            "is_query_report": 1,
+            "label": "IPC Summary",
+            "link_count": 0,
+            "link_to": "IPC Summary",
+            "link_type": "Report",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Linked Masters",
+            "link_count": 0,
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Card Break"
+        },
+        {
+            "dependencies": "",
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Customer",
+            "link_count": 0,
+            "link_to": "Customer",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "dependencies": "",
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Project",
+            "link_count": 0,
+            "link_to": "Project",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        },
+        {
+            "dependencies": "",
+            "hidden": 0,
+            "is_query_report": 0,
+            "label": "Contract",
+            "link_count": 0,
+            "link_to": "Contract",
+            "link_type": "DocType",
+            "onboard": 0,
+            "type": "Link"
+        }
+    ],
+    "module": "Contracting IPC",
+    "name": "Contracting IPC",
+    "owner": "Administrator",
+    "parent_page": "",
+    "public": 1,
+    "restrict_to_domain": "",
+    "roles": [],
+    "sequence_id": 1.0,
+    "shortcuts": [
+        {
+            "color": "Blue",
+            "doc_view": "List",
+            "label": "IPC",
+            "link_to": "IPC",
+            "type": "DocType"
+        },
+        {
+            "color": "Green",
+            "label": "IPC Summary",
+            "link_to": "IPC Summary",
+            "type": "Report"
+        },
+        {
+            "color": "Grey",
+            "doc_view": "List",
+            "label": "Customer",
+            "link_to": "Customer",
+            "type": "DocType"
+        }
+    ],
+    "title": "Contracting IPC"
+}

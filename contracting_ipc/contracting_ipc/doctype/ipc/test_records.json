@@ -1,0 +1,12 @@
+[
+    {
+        "customer": "_Test Customer",
+        "project": "_Test Project",
+        "company": "_Test Company",
+        "period_from": "2024-01-01",
+        "period_to": "2024-01-31",
+        "total_work_done": 100000,
+        "retention_percentage": 10,
+        "advance_deduction": 5000
+    }
+]

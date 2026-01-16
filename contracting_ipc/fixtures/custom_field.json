@@ -1,0 +1,13 @@
+{
+    "custom_fields": [
+        {
+            "dt": "Sales Invoice",
+            "fieldname": "ipc",
+            "fieldtype": "Link",
+            "insert_after": "project",
+            "label": "IPC",
+            "options": "IPC",
+            "read_only": 1
+        }
+    ]
+}
