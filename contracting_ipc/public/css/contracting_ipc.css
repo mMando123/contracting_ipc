@@ -1,0 +1,48 @@
+/**
+ * Contracting IPC - Main Stylesheet
+ * 
+ * Global styles for the Contracting IPC module.
+ */
+
+/* IPC Status Indicators */
+.ipc-status-draft {
+    color: #ff9800;
+    font-weight: 500;
+}
+
+.ipc-status-approved {
+    color: #2196f3;
+    font-weight: 500;
+}
+
+.ipc-status-invoiced {
+    color: #4caf50;
+    font-weight: 500;
+}
+
+.ipc-status-rejected {
+    color: #f44336;
+    font-weight: 500;
+}
+
+/* IPC Amount Highlights */
+.ipc-net-amount {
+    font-size: 1.2em;
+    font-weight: 600;
+    color: var(--primary-color);
+}
+
+/* IPC Print Format Styles */
+.print-format .ipc-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.print-format .ipc-amounts-table td {
+    padding: 8px 12px;
+}
+
+.print-format .ipc-total-row {
+    background-color: #f5f5f5;
+    font-weight: bold;
+}
