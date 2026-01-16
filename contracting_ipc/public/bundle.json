@@ -1,8 +1,0 @@
-{
-    "css/contracting_ipc.bundle.css": [
-        "public/css/contracting_ipc.css"
-    ],
-    "js/contracting_ipc.bundle.js": [
-        "public/js/contracting_ipc.js"
-    ]
-}
