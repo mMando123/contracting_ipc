@@ -1,10 +1,1 @@
-app_name = "contracting_ipc"
-app_version = "1.0.0"
-app_title = "Contracting IPC"
-app_publisher = "Your Company"
-app_description = "Interim Payment Certificates (IPC) Management for Construction Companies"
-app_icon = "octicon octicon-file-directory"
-app_color = "blue"
-app_email = "info@yourcompany.com"
-app_license = "MIT"
-source_link = "https://github.com/your-org/contracting_ipc"
+Contracting IPC
